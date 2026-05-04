@@ -5,7 +5,7 @@
 - **Handshake AI Fellowship** — AI Development Projects · Hedgehoge · Selected cohort for generative AI product engineering
 - **Google** — Organisation member
 
-I operate natively with LLMs — Claude, GPT-4o, Gemini — not as a curiosity, but as 
+I operate natively with Generative AI  — Claude, GPT-4o, Gemini — not as a curiosity, but as 
 core infrastructure. I architect agentic marketing workflows, automate content and 
 reporting pipelines, deploy GEO strategy alongside SEO, and use generative AI for 
 creative production at scale. AI isn't a tool I added to my stack — it's how the stack runs.
