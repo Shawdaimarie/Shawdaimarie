@@ -1,4 +1,4 @@
-## Shawdai · AI-Native Marketer & GTM Technologist
+## Shawdai · AI-Native & GTM Technologist
 📍 Denver, CO · Dallas, TX  · [essentialdigitalsolution.com](https://essentialdigitalsolution.com)
 
 ### 🏆 Fellowship & recognition
