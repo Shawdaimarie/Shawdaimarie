@@ -1,5 +1,5 @@
 ## Shawdai · AI-Native Marketer & GTM Technologist
-📍 Denver, CO · Berlin, DE · [essentialdigitalsolution.com](https://essentialdigitalsolution.com)
+📍 Denver, CO · Dallas, TX  · [essentialdigitalsolution.com](https://essentialdigitalsolution.com)
 
 ### 🏆 Fellowship & recognition
 - **Handshake AI Fellowship** — AI Development Projects · Hedgehoge · Selected cohort for generative AI product engineering
