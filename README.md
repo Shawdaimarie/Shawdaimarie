@@ -1,19 +1,15 @@
-## Shawdai · AI-Native & GTM Technologist
-📍 Denver, CO · Dallas, TX  · [essentialdigitalsolution.com](https://essentialdigitalsolution.com)
+Shawdai · AI-Native & GTM Technologist
 
-### 🏆 Fellowship & recognition
-- **Handshake AI Fellowship** — AI Development Projects · Hedgehoge · Selected cohort for generative AI product engineering
-- **Google** — Organisation member
+📍 Denver, CO · essentialdigitalsolution.com
 
-I operate natively with Generative AI  — Claude, GPT-4o, Gemini — not as a curiosity, but as 
-core infrastructure. I architect agentic marketing workflows, automate content and 
-reporting pipelines, deploy GEO strategy alongside SEO, and use generative AI for 
-creative production at scale. AI isn't a tool I added to my stack — it's how the stack runs.
+🏆 Fellowship & recognition
+Handshake AI Fellowship — Project Feather · Foundation LLM post-training (SFT + RLHF/RLAIF) · 400+ gold-standard demonstrations authored, 95%+ reviewer acceptance rate
+Anthropic Academy — Certified: Constitutional AI, Claude API, Agentic Workflows, Prompt Engineering
+M.S. Artificial Intelligence — University of Colorado Boulder (in progress)
 
-Founder of **Essential Digital Solution** — 11 years, 120+ mandates, €2M+ managed media 
-spend across enterprise SaaS, FinTech, HealthTech, PropTech, and PE/VC. The underlying 
-systems — RevOps, analytics, programmatic media, GTM infrastructure — are all built with 
-AI-augmented operations at their core.
+I operate natively across the full generative AI landscape — Claude, GPT-5, Gemini, Llama, Perplexity — not as a curiosity, but as core infrastructure. I architect agentic multi-agent pipelines, build RAG systems with Pinecone and Weaviate, contribute directly to foundation model post-training as a Handshake AI Fellow, and deploy GEO strategy alongside SEO. AI isn't a tool I added to my stack — it's how the stack runs.
+
+Founder of Essential Digital Solution — 11 years, 120+ mandates, €2M+ managed media spend across enterprise SaaS, FinTech, HealthTech, PropTech, and PE/VC. The underlying systems — RevOps, analytics, programmatic media, GTM infrastructure — are all built with AI-augmented operations at their core.
 
 ### 🤖 AI & automation stack
 
