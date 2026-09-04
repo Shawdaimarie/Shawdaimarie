@@ -1,37 +1,68 @@
 # Shawdai Marie
 
-**AI reliability engineer · model-evaluation practitioner · technical operator**
+**AI reliability engineer · model-evaluation practitioner · software builder · technical operator**
 
-I build evidence-first AI systems: model behavior is evaluated, agent action is bounded, decisions are auditable, and the business tradeoffs are explicit.
+Denver, Colorado · U.S. citizen · available for AI engineering, software engineering, evaluation, research-engineering, and technical product roles.
 
-## Flagship
+I build evidence-first AI systems: model behavior is measured, agent action is bounded, production traces are normalized into testable contracts, decisions are auditable, and technical tradeoffs are made legible to engineering and business leadership.
 
-### [Sentinel](https://github.com/Shawdaimarie/sentinel)
+## Flagship engineering system
 
-Governed agent execution and deterministic release evaluation for high-consequence workflows.
+### [Sentinel 0.3.0](https://github.com/Shawdaimarie/sentinel)
 
-- deny-by-default action policy and pre-execution audit records;
-- SHA-256/HMAC-SHA256 chaining and downgrade protection;
-- deterministic evaluation across correctness, safety, grounding, tool use, latency, cost, and action budgets;
-- independent Python, Go, and TypeScript audit verification;
-- 40 Python tests, cross-runtime CI, dependency audit, CodeQL, and Docker.
+A governed AI-agent reliability platform connecting policy-controlled execution, production telemetry, deterministic evaluation, security analysis, and release decisions.
+
+**Architecture and controls**
+
+- deny-by-default tool policy with decisions recorded before execution;
+- governed network retrieval, per-hop redirect evaluation, action budgets, and fail-closed behavior;
+- SHA-256/HMAC-SHA256 audit chaining with sequence and keyed-downgrade verification;
+- deterministic scoring for correctness, safety, grounding, tool use, latency, cost, and action budgets;
+- candidate-versus-baseline regression gates in CI;
+- offline OpenTelemetry/OTLP normalization into strict, provider-neutral `AgentRun` JSONL;
+- trace-topology validation, retry and approval preservation, sensitive-data redaction, bounded vendor metadata, and provenance manifests with input/configuration fingerprints;
+- independent Python, Go, and TypeScript audit verification against normative vectors;
+- Python 3.11/3.12 quality gates, strict typing, dependency audit, CodeQL, and a non-root Docker build.
+
+**Reviewer path**
+
+1. [Architecture](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/ARCHITECTURE.md)
+2. [Security model](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/SECURITY.md)
+3. [Trace-import protocol](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/TRACE_IMPORT.md)
+4. [Evaluation protocol](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/EVALUATION.md)
+5. [Tests and CI evidence](https://github.com/Shawdaimarie/sentinel/actions)
+6. [Merged OpenTelemetry engineering review](https://github.com/Shawdaimarie/sentinel/pull/19)
 
 ## Additional public work
 
-- [Nyx Market Dashboard](https://github.com/Shawdaimarie/nyx-market-dashboard) — responsive HTML/CSS/JavaScript research and decision interface.
-- [CS-AI Path](https://github.com/Shawdaimarie/cs-ai-path) — sequenced 720-hour computer-science and AI curriculum with research-oriented capstones.
+- [Nyx Market Dashboard](https://github.com/Shawdaimarie/nyx-market-dashboard) — responsive HTML/CSS/JavaScript research and decision interface with automated structural and secret-safety checks.
+- [CS–AI Path](https://github.com/Shawdaimarie/cs-ai-path) — sequenced computer-science and AI curriculum with explicit checkpoints, primary-source study, and publishable capstones.
 
-## Current work
+## Model-training and evaluation work
 
-- 400+ SFT and RLHF/RLAIF evaluations through the Handshake AI Fellowship, with 95%+ reviewer acceptance across platform-scored work.
-- Graduate studies and research in Computer Science, Engineering, and AI at the University of Colorado Boulder.
-- Founder-led technology delivery across 120+ mandates through Essential Digital Solution.
+Candidate-reported and platform-scored experience includes:
 
-## Operating focus
+- 400+ SFT demonstrations and RLHF/RLAIF preference evaluations through the Handshake AI Fellowship;
+- 95%+ reviewer acceptance across submitted fellowship work;
+- technical-writing, multimodal tool-use, and vision-language evaluation;
+- rubric interpretation, failure classification, factual-grounding review, and calibrated written rationale.
 
-- model evaluation and human-feedback quality systems;
-- governed tool use, agent reliability, and AI safety controls;
-- Python, Go, TypeScript/JavaScript, test automation, Docker, and CI;
-- technical discovery, business-case framing, operating-model design, and measurable value.
+These metrics describe the relevant platform record; confidential client and laboratory identities are not represented as public endorsements.
 
-[Portfolio](https://essentialdigitalsolution.com/) · [Handshake](https://app.joinhandshake.com/profiles/tk8y6b) · [Email](mailto:shawdaimarie@gmail.com)
+## Technical operating experience
+
+- Founder-led delivery across 120+ candidate-reported technology, analytics, automation, web, and go-to-market mandates through Essential Digital Solution.
+- Graduate study and research in Computer Science, Engineering, and Artificial Intelligence at the University of Colorado Boulder; expected completion 2028.
+- Cross-functional operating work spanning technical discovery, business-case design, implementation scope, governance, adoption, measurement, and maintenance.
+
+## Working stack
+
+`Python` · `Go` · `TypeScript/JavaScript` · `HTML/CSS` · `SQL/PostgreSQL` · `React` · `APIs` · `JSON/JSONL` · `Docker` · `GitHub Actions` · `AWS/Azure/GCP concepts` · `Claude/OpenAI/Gemini workflows` · `MCP` · `RAG` · `SFT` · `RLHF/RLAIF`
+
+Technology is listed here as working context, not as a substitute for evidence. Sentinel is the primary inspectable proof of architecture, implementation, testing, security reasoning, documentation, and release discipline.
+
+## Current objective
+
+A durable primary role where I can help a team build and operate reliable AI systems—particularly agent infrastructure, model evaluation, applied AI, developer tools, safety/reliability engineering, or software platforms connecting research to production.
+
+[Portfolio](https://essentialdigitalsolution.com/) · [Handshake](https://app.joinhandshake.com/profiles/tk8y6b) · [GitHub](https://github.com/Shawdaimarie) · [Email](mailto:shawdaimarie@gmail.com)
