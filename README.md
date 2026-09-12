@@ -33,6 +33,18 @@ A governed AI-agent reliability platform connecting policy-controlled execution,
 5. [Tests and CI evidence](https://github.com/Shawdaimarie/sentinel/actions)
 6. [Merged OpenTelemetry engineering review](https://github.com/Shawdaimarie/sentinel/pull/19)
 
+## ServeScope — model serving and evaluation
+
+[ServeScope](https://github.com/Shawdaimarie/servescope) is my developing foundation for model serving and monitoring, a streaming AI workspace, and reproducible benchmarking across OpenAI, Anthropic, Perplexity, and vLLM adapters.
+
+The current foundation includes provider adapters, bounded requests, benchmark reporting, automated tests, and governance evidence checks. Live provider benchmarking and production reliability remain milestones, not claimed achievements. The repository is currently private.
+
+## Human-centered engineering principles
+
+I build with human dignity, agency, integrity, privacy, fairness, accountability, and long-term stewardship as explicit design commitments. I prioritize verifiable evidence, meaningful human oversight, accessible experiences, honest limitations, and maintainable systems.
+
+My [ServeScope governance charter](https://github.com/Shawdaimarie/servescope/blob/main/docs/governance.md) draws on the [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OECD AI Principles](https://oecd.ai/en/ai-principles), and [UNESCO Recommendation on the Ethics of AI](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics). These references guide my work; they do not imply certification or endorsement. Provider reputation and benchmark performance alone do not establish trustworthiness.
+
 ## Additional public work
 
 - [Nyx Market Dashboard](https://github.com/Shawdaimarie/nyx-market-dashboard) — responsive HTML/CSS/JavaScript research and decision interface with automated structural and secret-safety checks.
