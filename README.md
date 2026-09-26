@@ -1,35 +1,64 @@
 # Shawdai Marie
 
-I build tools for evaluating AI agents, bounding their actions, and making engineering decisions inspectable.
+I build systems that hold AI agents accountable. They check an action before it runs, measure behavior with evidence that anyone can reproduce, and state plainly what they do not prove.
 
-My focus is AI reliability, developer tooling, and human-governed automation. I value clear evidence, privacy, accessible experiences, and systems that people can understand and maintain.
+My work spans AI evaluation, zero-trust authorization, and engineering governance, in Python, Go, TypeScript, and SQL.
 
-## Featured work: Sentinel
+## Principles, and where they are enforced
 
-[Sentinel](https://github.com/Shawdaimarie/sentinel) is a reference implementation for governed agent execution and reproducible evaluation.
+A principle that nothing enforces is only a preference. Each one below is backed by code or a check that you can inspect and run.
 
-- Evaluate proposed actions against policy before dispatch.
-- Normalize supported OpenTelemetry traces into evaluation records.
-- Compare candidate and baseline runs with explicit safety and regression gates.
-- Inspect audit-chain verification across Python, TypeScript, and Go.
+| Principle | In practice | Enforced in |
+|---|---|---|
+| **Evidence over assertion** | A claim links to a test, a workflow run, or a verifiable record. | Sentinel's [deterministic evaluator](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/EVALUATION.md) and [CI evidence](https://github.com/Shawdaimarie/sentinel/actions) |
+| **Fail closed** | When a check cannot decide, the answer is no. | [Aegis](https://github.com/Shawdaimarie/sentinel/tree/main/Aegis) denies on missing identity, stale policy, missing approval, or audit failure |
+| **Safety is never averaged away** | A strong overall score cannot hide a single safety failure. | Sentinel's hard safety gates and baseline regression checks |
+| **Least privilege** | Each component gets only the access its task needs. | Aegis capability tokens scoped to tool, action, and resource; role-separated database credentials in [evaluation history](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/EVALUATION_HISTORY.md) |
+| **People keep authority** | Consequential actions need a recorded human decision. | Aegis approval requirements; Article's *Human Oversight for AI* check |
+| **Verifiable by anyone, anywhere** | Checks run offline, without vendor accounts, in more than one language. | Audit-chain [verifiers in Python, TypeScript, and Go](https://github.com/Shawdaimarie/sentinel/tree/main/Sentinel/verifiers); [offline trace fixtures](https://github.com/Shawdaimarie/agent-trace-fixtures) |
+| **State the limits** | Every project says what it does not establish. | Sentinel's [scope and limits](https://github.com/Shawdaimarie/sentinel#scope-and-limits); Aegis [threat model](https://github.com/Shawdaimarie/sentinel/blob/main/Aegis/docs/THREAT_MODEL.md) |
+| **Built to last** | Pinned dependencies, versioned specifications, and recorded history. | Article's *Dependency Integrity* and *Sustainability & Longevity* checks; Sentinel's [portable audit spec](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/spec/SPEC.md) |
 
-**Start here:** [Runnable examples](https://github.com/Shawdaimarie/sentinel#trace-to-evaluation-quick-start) · [Architecture](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/ARCHITECTURE.md) · [Tests and workflows](https://github.com/Shawdaimarie/sentinel/actions) · [Security model and limitations](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/SECURITY.md)
+## Work
 
-Sentinel is a reference implementation. Its tests and controls do not establish universal safety, certification, or production readiness for every use case.
+### [Sentinel](https://github.com/Shawdaimarie/sentinel) · Python · Go · TypeScript · SQL
 
-## Other public projects
+A reference platform for governed agent execution and reproducible evaluation.
+
+- Evaluates proposed agent actions against policy before they are dispatched.
+- Normalizes OpenTelemetry traces into evaluation records.
+- Compares candidate and baseline runs with explicit safety and regression gates.
+- Verifies tamper-evident audit chains independently in three languages.
+- Stores evaluation history in PostgreSQL with least-privilege roles.
+- Includes **Aegis**, a Go authorization gateway. Aegis decides whether a workload identity may use a tool, action, and resource, and it denies whenever it cannot decide.
+
+**Start here:** [Quick start](https://github.com/Shawdaimarie/sentinel#trace-to-evaluation-quick-start) · [Architecture](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/ARCHITECTURE.md) · [Security model](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/SECURITY.md) · [Reviewer path](https://github.com/Shawdaimarie/sentinel#reviewer-path)
+
+### [Article](https://github.com/Shawdaimarie/article-) · Python
+
+A machine-readable charter of ten engineering principles, and a CLI that checks a project against them. The principles include transparency, security, privacy, accessibility, and human oversight of AI. It can gate CI on a minimum score, and it never executes code from the project it checks.
+
+### [Agent Trace Fixtures](https://github.com/Shawdaimarie/agent-trace-fixtures) · Python
+
+Synthetic OpenTelemetry traces for testing AI-agent trace importers, covering topology errors and sensitive-data handling. No API keys, network access, or production data are needed.
+
+### Learning and interfaces
 
 | Project | Focus |
 |---|---|
-| [CS–AI Path](https://github.com/Shawdaimarie/cs-ai-path) | A structured computer-science and AI learning path |
-| [Nyx Market Dashboard](https://github.com/Shawdaimarie/nyx-market-dashboard) | A browser-based research and decision interface |
+| [CS–AI Path](https://github.com/Shawdaimarie/cs-ai-path) | A structured, self-paced path from computer-science fundamentals to modern AI, using free resources |
+| [Nyx Market Dashboard](https://github.com/Shawdaimarie/nyx-market-dashboard) | A browser-based market research and decision interface in HTML, CSS, and JavaScript |
 
 ## Current priorities
 
-- Make Sentinel easier to install, reproduce, and evaluate independently.
-- Improve release evidence and document supported behavior clearly.
-- Contribute tested fixes to the open-source tools used by these projects.
+- Publish Sentinel's container images with signed build provenance, a software bill of materials, and a vulnerability gate before release.
+- Make every project installable, reproducible, and verifiable by someone who has never spoken to me.
+- Contribute tested fixes to the open-source tools these projects depend on.
 
-Interested in reproducing an example or reporting a problem? Start with the relevant repository's documentation and contribution guidance. Please follow its security reporting instructions for sensitive findings.
+## Scope
 
-[Portfolio](https://essentialdigitalsolution.com/) · [Public repositories](https://github.com/Shawdaimarie?tab=repositories)
+These are reference implementations. Their tests and controls show the behavior they cover. They do not establish universal safety, certification, or production readiness for every use case.
+
+Want to reproduce an example or report a problem? Start with the repository's documentation and contribution guide. Please report security findings privately, following each repository's security policy.
+
+[Portfolio](https://essentialdigitalsolution.com/) · [All repositories](https://github.com/Shawdaimarie?tab=repositories)
