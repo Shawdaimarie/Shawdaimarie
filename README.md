@@ -49,6 +49,18 @@ Synthetic OpenTelemetry traces for testing AI-agent trace importers, covering to
 | [CS–AI Path](https://github.com/Shawdaimarie/cs-ai-path) | A structured, self-paced path from computer-science fundamentals to modern AI, using free resources |
 | [Nyx Market Dashboard](https://github.com/Shawdaimarie/nyx-market-dashboard) | A browser-based market research and decision interface in HTML, CSS, and JavaScript |
 
+## Technical writing
+
+Three starting points for reviewing the engineering decisions behind the code:
+
+| Question | Read | What it covers |
+|---|---|---|
+| How should agent behavior be evaluated reproducibly? | [Deterministic agent evaluation protocol](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/EVALUATION.md) | Observable assertions, safety gates, baseline comparisons, and recorded run artifacts |
+| What can a tamper-evident audit chain actually prove? | [Portable audit-chain specification](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/spec/SPEC.md) | A versioned verification contract, independent implementations, and explicit limits on deletion and truncation detection |
+| Where does an authorization system place its trust? | [Aegis threat model](https://github.com/Shawdaimarie/sentinel/blob/main/Aegis/docs/THREAT_MODEL.md) | Trust boundaries, workload identity, scoped capabilities, approval requirements, and fail-closed decisions |
+
+These documents connect design choices to inspectable contracts and controls. Read the stated assumptions and limits alongside the implementation.
+
 ## Current priorities
 
 - Publish Sentinel's container images with signed build provenance, a software bill of materials, and a vulnerability gate before release.
