@@ -1,8 +1,8 @@
 # Shawdai Marie
 
-I build systems that hold AI agents accountable. They check an action before it runs, measure behavior with evidence that anyone can reproduce, and state plainly what they do not prove.
+I build AI infrastructure for reliable, accountable agent systems: policy checks before execution, reproducible evaluations, and audit records that others can verify.
 
-My work spans AI evaluation, zero-trust authorization, and engineering governance, in Python, Go, TypeScript, and SQL.
+My focus is **AI infrastructure engineering, supported by research and technical writing**. I work in Python, Go, TypeScript, and SQL, and document the architecture, tradeoffs, and limits so another engineer can inspect, run, and maintain the system.
 
 ## Principles, and where they are enforced
 
@@ -63,7 +63,8 @@ These documents connect design choices to inspectable contracts and controls. Re
 
 ## Current priorities
 
-- Publish Sentinel's container images with signed build provenance, a software bill of materials, and a vulnerability gate before release.
+- Complete and verify a successful Sentinel container release through the vulnerability gate, with signed build provenance and a software bill of materials tied to the image digest.
+- Publish reproducible studies of evaluation quality, latency, and cost, with explicit baselines, failure cases, and limits.
 - Make every project installable, reproducible, and verifiable by someone who has never spoken to me.
 - Contribute tested fixes to the open-source tools these projects depend on.
 
@@ -73,4 +74,4 @@ These are reference implementations. Their tests and controls show the behavior 
 
 Want to reproduce an example or report a problem? Start with the repository's documentation and contribution guide. Please report security findings privately, following each repository's security policy.
 
-[Portfolio](https://essentialdigitalsolution.com/) · [All repositories](https://github.com/Shawdaimarie?tab=repositories)
+[Portfolio](https://essentialdigitalsolution.com/) · [All repositories](https://github.com/Shawdaimarie?tab=repositories) · [Codeforces](https://codeforces.com/profile/Shawdaimarie)
