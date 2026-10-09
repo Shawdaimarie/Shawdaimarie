@@ -17,7 +17,7 @@ A principle that nothing enforces is only a preference. Each one below is backed
 | **People keep authority** | Consequential actions need a recorded human decision. | Aegis approval requirements; Article's *Human Oversight for AI* check |
 | **Verifiable by anyone, anywhere** | Checks run offline, without vendor accounts, in more than one language. | Audit-chain [verifiers in Python, TypeScript, and Go](https://github.com/Shawdaimarie/sentinel/tree/main/Sentinel/verifiers); [offline trace fixtures](https://github.com/Shawdaimarie/agent-trace-fixtures) |
 | **State the limits** | Every project says what it does not establish. | Sentinel's [scope and limits](https://github.com/Shawdaimarie/sentinel#scope-and-limits); Aegis [threat model](https://github.com/Shawdaimarie/sentinel/blob/main/Aegis/docs/THREAT_MODEL.md) |
-| **Built to last** | Pinned dependencies, versioned specifications, and recorded history. | Article's *Dependency Integrity* and *Sustainability & Longevity* checks; Sentinel's [portable audit spec](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/spec/SPEC.md) |
+| **Built to last** | Versioned specifications, recorded history, and reviewed dependency updates. | Article's *Dependency Integrity* and *Sustainability & Longevity* checks; Sentinel's [portable audit spec](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/spec/SPEC.md) |
 
 ## Work
 
@@ -74,4 +74,4 @@ These are reference implementations. Their tests and controls show the behavior 
 
 Want to reproduce an example or report a problem? Start with the repository's documentation and contribution guide. Please report security findings privately, following each repository's security policy.
 
-[Portfolio](https://essentialdigitalsolution.com/) · [All repositories](https://github.com/Shawdaimarie?tab=repositories) · [Codeforces](https://codeforces.com/profile/Shawdaimarie)
+[Portfolio](https://essentialdigitalsolution.com/) · [All repositories](https://github.com/Shawdaimarie?tab=repositories) · [Codeforces](https://codeforces.com/profile/Shawdaimarie) · [LeetCode](https://leetcode.com/u/Shawdaimarie/) · [CodeChef](https://www.codechef.com/users/plush_rain_95)
