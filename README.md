@@ -4,22 +4,10 @@ I build AI infrastructure for reliable, accountable agent systems: policy checks
 
 My focus is **AI infrastructure engineering, supported by research and technical writing**. I work in Python, Go, TypeScript, and SQL, and document the architecture, tradeoffs, and limits so another engineer can inspect, run, and maintain the system.
 
-## Principles, and where they are enforced
+## Selected engineering
 
-A principle that nothing enforces is only a preference. Each one below is backed by code or a check that you can inspect and run.
+**Start with [Sentinel’s reviewer path](https://github.com/Shawdaimarie/sentinel#reviewer-path)** for architecture, code, tests, and example evidence. For a smaller project you can inspect offline, start with [Agent Trace Fixtures](https://github.com/Shawdaimarie/agent-trace-fixtures).
 
-| Principle | In practice | Enforced in |
-|---|---|---|
-| **Evidence over assertion** | A claim links to a test, a workflow run, or a verifiable record. | Sentinel's [deterministic evaluator](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/EVALUATION.md) and [CI evidence](https://github.com/Shawdaimarie/sentinel/actions) |
-| **Fail closed** | When a check cannot decide, the answer is no. | [Aegis](https://github.com/Shawdaimarie/sentinel/tree/main/Aegis) denies on missing identity, stale policy, missing approval, or audit failure |
-| **Safety is never averaged away** | A strong overall score cannot hide a single safety failure. | Sentinel's hard safety gates and baseline regression checks |
-| **Least privilege** | Each component gets only the access its task needs. | Aegis capability tokens scoped to tool, action, and resource; role-separated database credentials in [evaluation history](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/EVALUATION_HISTORY.md) |
-| **People keep authority** | Consequential actions need a recorded human decision. | Aegis approval requirements; Article's *Human Oversight for AI* check |
-| **Verifiable by anyone, anywhere** | Checks run offline, without vendor accounts, in more than one language. | Audit-chain [verifiers in Python, TypeScript, and Go](https://github.com/Shawdaimarie/sentinel/tree/main/Sentinel/verifiers); [offline trace fixtures](https://github.com/Shawdaimarie/agent-trace-fixtures) |
-| **State the limits** | Every project says what it does not establish. | Sentinel's [scope and limits](https://github.com/Shawdaimarie/sentinel#scope-and-limits); Aegis [threat model](https://github.com/Shawdaimarie/sentinel/blob/main/Aegis/docs/THREAT_MODEL.md) |
-| **Built to last** | Versioned specifications, recorded history, and reviewed dependency updates. | Article's *Dependency Integrity* and *Sustainability & Longevity* checks; Sentinel's [portable audit spec](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/spec/SPEC.md) |
-
-## Work
 
 ### [Sentinel](https://github.com/Shawdaimarie/sentinel) · Python · Go · TypeScript · SQL
 
@@ -36,7 +24,7 @@ A reference platform for governed agent execution and reproducible evaluation.
 
 ### [Article](https://github.com/Shawdaimarie/article-) · Python
 
-A machine-readable charter of ten engineering principles, and a CLI that checks a project against them. The principles include transparency, security, privacy, accessibility, and human oversight of AI. It can gate CI on a minimum score, and it never executes code from the project it checks.
+A machine-readable charter of ten engineering principles, and a CLI that checks a project against them. The principles include transparency, security, privacy, accessibility, and human oversight of AI. It can gate CI on a minimum score and reads the target project without executing its code. Its static checks are heuristics for human review, not a security or legal audit.
 
 ### [Agent Trace Fixtures](https://github.com/Shawdaimarie/agent-trace-fixtures) · Python
 
@@ -61,6 +49,16 @@ Three starting points for reviewing the engineering decisions behind the code:
 
 These documents connect design choices to inspectable contracts and controls. Read the stated assumptions and limits alongside the implementation.
 
+## Engineering principles
+
+| Principle | How I put it into practice |
+|---|---|
+| **Evidence over assertion** | Define observable outcomes and compare candidate runs against a baseline. See the [evaluation protocol](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/EVALUATION.md). |
+| **Bounded authority** | Check identity, scope, policy, and required approval before dispatch. See the [Aegis threat model](https://github.com/Shawdaimarie/sentinel/blob/main/Aegis/docs/THREAT_MODEL.md). |
+| **Safety as a separate gate** | Keep safety failures visible rather than allowing an aggregate score to hide them. See [Sentinel’s evaluator](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/EVALUATION.md). |
+| **Independent verification** | Specify the audit format and provide verifiers in Python, TypeScript, and Go. See the [portable specification](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/spec/SPEC.md). |
+| **Maintainability and honest limits** | Document contracts, review dependency changes, preserve version history, and distinguish checks from certification. See [Article’s charter and limitations](https://github.com/Shawdaimarie/article-). |
+
 ## Current priorities
 
 - Complete and verify a successful Sentinel container release through the vulnerability gate, with signed build provenance and a software bill of materials tied to the image digest.
@@ -72,6 +70,6 @@ These documents connect design choices to inspectable contracts and controls. Re
 
 These are reference implementations. Their tests and controls show the behavior they cover. They do not establish universal safety, certification, or production readiness for every use case.
 
-Want to reproduce an example or report a problem? Start with the repository's documentation and contribution guide. Please report security findings privately, following each repository's security policy.
+Useful contributions include a reproducible failure case, an independently checked result, or a tested interoperability fix. Start with the repository's documentation and contribution guide. Please report security findings privately, following each repository's security policy.
 
 [Portfolio](https://essentialdigitalsolution.com/) · [All repositories](https://github.com/Shawdaimarie?tab=repositories) · [Codeforces](https://codeforces.com/profile/Shawdaimarie) · [LeetCode](https://leetcode.com/u/Shawdaimarie/) · [CodeChef](https://www.codechef.com/users/plush_rain_95)
