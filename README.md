@@ -2,7 +2,19 @@
 
 I build AI infrastructure for reliable, accountable agent systems: policy checks before execution, reproducible evaluations, and audit records that others can verify.
 
-My focus is **AI infrastructure engineering, supported by research and technical writing**. I work in Python, Go, TypeScript, and SQL, and document the architecture, tradeoffs, and limits so another engineer can inspect, run, and maintain the system.
+My work spans **software development and technical writing**, with a focus on AI infrastructure. I work in Python, Go, TypeScript, and SQL, and write the guides, specifications, and explanations another engineer needs to inspect, run, and maintain the system.
+
+**Open to remote coding and technical-writing opportunities.** Review the samples below, explore [Essential Digital Solution](https://essentialdigitalsolution.com/), or [discuss a project through Upwork](https://www.upwork.com/freelancers/~0169dd29759f6349eb).
+
+## Review a work sample
+
+| If you are reviewing… | Start here | What you can inspect |
+|---|---|---|
+| Coding and debugging | [Trace checker](https://github.com/Shawdaimarie/agent-trace-fixtures/blob/c712de027af0812e927c3b9a5e8b4c669731b80c/tracecheck.py) and [regression tests](https://github.com/Shawdaimarie/agent-trace-fixtures/blob/c712de027af0812e927c3b9a5e8b4c669731b80c/tests/test_tracecheck.py) | Bounded input handling, span identity, parent relationships, and deliberate failure cases |
+| Technical writing | [Reviewing an AI-agent trace importer with synthetic fixtures](docs/trace-importer-review.md) | A runnable walkthrough, expected output, diagnostic interpretation, and explicit limits |
+| Deployment and handoff | [Sentinel installation guide](https://github.com/Shawdaimarie/sentinel/blob/main/INSTALLING.md) and [first-run guide](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/FIRST_RUN.md) | Setup instructions and checks for someone approaching the project for the first time |
+
+The trace walkthrough records a local Python 3.12.14 run on October 12, 2026: nine fixture expectations matched and eight unit tests passed. These are synthetic checks, with the source revision and limitations recorded in the guide.
 
 ## Selected engineering
 
@@ -61,8 +73,8 @@ These documents connect design choices to inspectable contracts and controls. Re
 
 ## Current priorities
 
-- Complete and verify a successful Sentinel container release through the vulnerability gate, with signed build provenance and a software bill of materials tied to the image digest.
-- Publish reproducible studies of evaluation quality, latency, and cost, with explicit baselines, failure cases, and limits.
+- Maintain the verified Sentinel container release and its installation evidence. The [release workflow for revision 2cd315d](https://github.com/Shawdaimarie/sentinel/actions/runs/38089132254) completed successfully; review new dependency and security findings as they arise.
+- Develop reproducible evaluation examples with explicit baselines, failure cases, and limits; keep proposed latency and cost studies distinct from completed results.
 - Make every project installable, reproducible, and verifiable by someone who has never spoken to me.
 - Contribute tested fixes to the open-source tools these projects depend on.
 
