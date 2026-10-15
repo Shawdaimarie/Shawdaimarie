@@ -2,7 +2,7 @@
 
 I build AI infrastructure for reliable, accountable agent systems: policy checks before execution, reproducible evaluations, and audit records that others can verify.
 
-My work spans **software development and technical writing**, with a focus on AI infrastructure. I work in Python, Go, TypeScript, and SQL, and write the guides, specifications, and explanations another engineer needs to inspect, run, and maintain the system.
+My work spans **software development and technical writing**, with a focus on AI infrastructure. I work in Python, Go, TypeScript, SQL, and infinte other code. I write the guides with principle, morals, intellegence, and explanations another engineer needs to inspect, run, and maintain the system.
 
 **Open to remote coding and technical-writing opportunities.** Review the samples below, explore [Essential Digital Solution](https://essentialdigitalsolution.com/), or [discuss a project through Upwork](https://www.upwork.com/freelancers/~0169dd29759f6349eb).
 
