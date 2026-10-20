@@ -1,0 +1,31 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.rulers": [
+    100
+  ],
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "editor.wordWrap": "on"
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[java]": {
+    "editor.tabSize": 4
+  },
+  "[cpp]": {
+    "editor.tabSize": 4
+  },
+  "[rust]": {
+    "editor.tabSize": 4
+  },
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
+  }
+}
