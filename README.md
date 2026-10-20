@@ -1,8 +1,10 @@
 # Shawdai Marie
 
+**Software Engineer | AI Engineering & Technical Writing**
+
 I build AI infrastructure for reliable, accountable agent systems: policy checks before execution, reproducible evaluations, and audit records that others can verify.
 
-My work spans **software development and technical writing**, with a focus on AI infrastructure. I work in Python, Go, TypeScript, SQL, and infinte other code. I write the guides with principle, morals, intellegence, and explanations another engineer needs to inspect, run, and maintain the system.
+My work spans **coding, software engineering, AI engineering, and technical writing**, with a focus on AI infrastructure. My published project materials cover Python, Go, TypeScript, JavaScript, and SQL. I connect implementations to clear specifications, reproducible checks, and explanations another engineer can use to inspect, run, and maintain the system.
 
 **Open to remote software engineering, coding and technical-writing opportunities.** Review the samples below, explore [Essential Digital Solution](https://essentialdigitalsolution.com/)
 
@@ -70,6 +72,30 @@ These documents connect design choices to inspectable contracts and controls. Re
 | **Safety as a separate gate** | Keep safety failures visible rather than allowing an aggregate score to hide them. See [Sentinel’s evaluator](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/EVALUATION.md). |
 | **Independent verification** | Specify the audit format and provide verifiers in Python, TypeScript, and Go. See the [portable specification](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/spec/SPEC.md). |
 | **Maintainability and honest limits** | Document contracts, review dependency changes, preserve version history, and distinguish checks from certification. See [Article’s charter and limitations](https://github.com/Shawdaimarie/article-). |
+
+## Language development plan
+
+This eight-language plan connects technical growth to useful deliverables. Project coverage is not a claim of equal proficiency, and development targets are not offered as established expertise.
+
+| Language | Delivery focus | Evidence status |
+|---|---|---|
+| Python | AI evaluation, automation, CLI tools, and backend services | Published project materials: Sentinel, Agent Trace Fixtures, and Article |
+| TypeScript | Typed integrations and verification tools | Published project materials: Sentinel portable verifier |
+| JavaScript | Browser interfaces and interactive dashboards | Published project materials: Nyx Market Dashboard |
+| SQL | Evaluation history, data contracts, and reporting | Published project materials: Sentinel PostgreSQL evaluation history |
+| Go | Authorization services and portable verification | Published project materials: Aegis and Sentinel |
+| C++ | Algorithms and performance-sensitive components | Development target; publish a documented implementation and reproducible checks |
+| Java | Backend services and enterprise integrations | Development target; publish a documented implementation and reproducible checks |
+| Rust | Memory-safe systems tools and reliable infrastructure | Development target; publish a documented implementation and reproducible checks |
+
+## Delivery and profile consistency
+
+- Keep role descriptions, project scope, skill evidence, and portfolio links consistent across professional profiles.
+- Define the user problem, deliverables, acceptance criteria, and system boundaries before implementation.
+- Use accessible interfaces, least-privilege access, privacy-conscious data handling, and explicit human oversight where appropriate.
+- Deliver readable code, relevant tests, setup instructions, API examples, and a maintainable handoff.
+- Report measured results with the revision, environment, and limitations; distinguish synthetic checks from production evidence.
+- After each meaningful release, review affected portfolio descriptions and record new evidence before expanding skill claims.
 
 ## Current priorities
 
