@@ -1,6 +1,6 @@
 # Shawdai Marie
 
-Software & AI Engineering | 
+Software & AI Engineering 
 
 ## Review a work sample
 
