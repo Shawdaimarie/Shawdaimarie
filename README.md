@@ -24,6 +24,23 @@ These implementations provide inspectable evidence for review and integration wo
 
 The trace walkthrough records a local Python 3.12.14 run on October 12, 2026: nine fixture expectations matched and eight unit tests passed. These are synthetic checks, with the source revision and limitations recorded in the guide.
 
+## Focused pilot: trace-review reliability
+
+A pinned baseline and a repaired Python checker were replayed against **20 labeled synthetic cases**, with acceptance criteria committed before the published measurement.
+
+| Acceptance measure | Baseline | Candidate |
+|---|---:|---:|
+| Exact diagnostic agreement | 12/20 | **20/20** |
+| False accepts on eight malformed-sibling cases | 8 | **0** |
+| False alarms on six valid controls | 0 | **0** |
+| Original fixture expectations matched | 9/9 | **9/9** |
+
+The candidate passed all technical criteria, 100 repeated batches with stable diagnostics, and 16 unit test methods. The practical value hypothesis is fewer misleading trace-review results. **Human review-time savings, customer acceptance and financial impact remain unmeasured.** These cases target a known defect and do not estimate production accuracy.
+
+[Results and reproduction](https://github.com/Shawdaimarie/agent-trace-fixtures/blob/748b9e2b61831ebf4b22057b2cf582d06ecd8894/pilots/trace-container-v1/README.md) · [Baseline and acceptance protocol](https://github.com/Shawdaimarie/agent-trace-fixtures/blob/906d40859e2e846eac2e892924adaec2459d89f3/pilots/trace-container-v1/PROTOCOL.md) · [Raw evidence](https://github.com/Shawdaimarie/agent-trace-fixtures/tree/748b9e2b61831ebf4b22057b2cf582d06ecd8894/pilots/trace-container-v1/results/2026-10-23) · [Pull request #2 — awaiting maintainer review](https://github.com/Shawdaimarie/agent-trace-fixtures/pull/2)
+
+Implementation and documentation were AI-assisted. Independent reproduction and personal explanation/modification remain separate from automated checks.
+
 ## Delivery context
 
 My resume describes implementation, evaluation and technical handoff within a practice spanning **120+ client mandates across eight sectors**. It also records **ORACLE workflow validation across 14 client environments** and a brief-to-publication pipeline supporting campaigns that generated **more than one million audience engagements**.
