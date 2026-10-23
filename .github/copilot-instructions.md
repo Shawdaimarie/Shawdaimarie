@@ -5,10 +5,14 @@ Software Engineer | AI Engineering & Technical Writing
 Portfolio: https://essentialdigitalsolution.com/
 GitHub: https://github.com/Shawdaimarie
 
-Language plan: Python, TypeScript, JavaScript, SQL, Go, C++, Java, Rust.
-Published project materials currently cover the first five. C++, Java, and Rust
-are development targets until linked implementations and checks support stronger
-claims. Do not present all eight as equally proficient or certified.
+Language plan: Python, TypeScript, JavaScript, SQL, Go, Bash, C++, Java, C#, Rust.
+Published implementation evidence is linked for the first six. C++, Java, C#,
+and Rust are development targets until linked implementations and checks support
+stronger claims. Do not present all ten as equally proficient or certified.
+
+Role preference: U.S.-based remote software and AI engineering work; no employment
+sponsorship required. Distinguish measured synthetic results from production
+outcomes and comparative rankings.
 
 ## Working standard
 

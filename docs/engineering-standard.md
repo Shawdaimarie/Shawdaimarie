@@ -7,10 +7,14 @@ Software Engineer | AI Engineering & Technical Writing
 Portfolio: https://essentialdigitalsolution.com/
 GitHub: https://github.com/Shawdaimarie
 
-Language plan: Python, TypeScript, JavaScript, SQL, Go, C++, Java, Rust.
-Published project materials currently cover the first five. C++, Java, and Rust
-are development targets until linked implementations and checks support stronger
-claims. Do not present all eight as equally proficient or certified.
+Language plan: Python, TypeScript, JavaScript, SQL, Go, Bash, C++, Java, C#, Rust.
+Published implementation evidence is linked for the first six. C++, Java, C#,
+and Rust are development targets until linked implementations and checks support
+stronger claims. Do not present all ten as equally proficient or certified.
+
+Role preference: U.S.-based remote software and AI engineering work; no employment
+sponsorship required. Distinguish measured synthetic results from production
+outcomes and comparative rankings.
 
 README.md is the authoritative public profile. Update language status only when
 reviewable evidence supports it. This document is a development standard, not an
@@ -41,8 +45,8 @@ assessment of proficiency or a guarantee of business results.
 
 ## Repository context
 
-This repository contains a GitHub profile and writing samples. It is not an
-eight-language application. Do not invent build commands or add unnecessary
+This repository contains a GitHub profile and writing samples. It is not a
+multi-language application. Do not invent build commands or add unnecessary
 runtimes. For Markdown-only changes, check links, spelling, claim consistency,
 and rendering. Use each application's own existing checks when these settings
 are adapted to another repository.

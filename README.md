@@ -1,12 +1,14 @@
 # Shawdai Marie
 
-**Software Engineer | AI Engineering & Technical Writing**
+**Software & AI Engineering | Python Tools, Evaluation & Technical Writing**
 
-I build AI infrastructure for reliable, accountable agent systems: policy checks before execution, reproducible evaluations, and audit records that others can verify.
+**U.S.-based · Seeking remote roles · No employment sponsorship required**
 
-My work spans **coding, software engineering, AI engineering, and technical writing**, with a focus on AI infrastructure. My published project materials cover Python, Go, TypeScript, JavaScript, and SQL. I connect implementations to clear specifications, reproducible checks, and explanations another engineer can use to inspect, run, and maintain the system.
+I build tools and reference implementations for AI-agent evaluation, trace validation, authorization, and audit verification. My repositories connect readable code to regression tests, reproducible checks, and the documentation another engineer needs to inspect, run, and maintain the work.
 
-**Open to remote software engineering, coding and technical-writing opportunities.** Review the samples below, explore [Essential Digital Solution](https://essentialdigitalsolution.com/)
+My strongest current work samples are **Python validation and evaluation tools**, supported by **Go authorization services, TypeScript verification, SQL data contracts, JavaScript interfaces, and Bash delivery checks**. Each language claim below links to implementation evidence; the learning roadmap distinguishes future targets.
+
+I am interested in **remote software engineering, AI application and evaluation tooling, test automation, and developer documentation**. Contact [shawdaimarie@gmail.com](mailto:shawdaimarie@gmail.com), review the work samples below, or explore [Essential Digital Solution](https://essentialdigitalsolution.com/).
 
 ## Review a work sample
 
@@ -17,6 +19,18 @@ My work spans **coding, software engineering, AI engineering, and technical writ
 | Deployment and handoff | [Sentinel installation guide](https://github.com/Shawdaimarie/sentinel/blob/main/INSTALLING.md) and [first-run guide](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/FIRST_RUN.md) | Setup instructions and checks for someone approaching the project for the first time |
 
 The trace walkthrough records a local Python 3.12.14 run on October 12, 2026: nine fixture expectations matched and eight unit tests passed. These are synthetic checks, with the source revision and limitations recorded in the guide.
+
+## Measured engineering results
+
+Sentinel's [October 14 offline benchmark](https://github.com/Shawdaimarie/sentinel/blob/3b2e7cf0716e3940ef5f8af7beb0177408afe333/Sentinel/docs/benchmarks/OFFLINE_2026-10-14.md) records a bounded synthetic workload, predeclared acceptance criteria, and archived raw logs:
+
+| Result | Conditions and evidence |
+|---|---|
+| **2,606 validated batches in approximately five minutes** | Two workers, 120 synthetic evaluation records per batch; **8.684 batches/s**, approximately **1,042 fixture evaluations/s** |
+| **All seven normal stages passed, through eight concurrent workers** | Within the protocol's latency, error and memory criteria; no unexpected errors in the recorded normal stages |
+| **10 deliberate input rejections followed by 10 successful recovery batches** | Missing or malformed local files; seeded outputs preserved on rejection |
+
+The benchmark used an installed wheel on Python 3.12.14 and a shared macOS arm64 desktop. These figures describe **offline fixture evaluation**, not model requests, production capacity, customer adoption, or a comparative ranking. The [published summary, raw log and SHA-256 fingerprints](https://github.com/Shawdaimarie/sentinel/tree/3b2e7cf0716e3940ef5f8af7beb0177408afe333/Sentinel/benchmarks/results/2026-10-14-offline-v1/) support inspection; [capacity-testing instructions](https://github.com/Shawdaimarie/sentinel/blob/3b2e7cf0716e3940ef5f8af7beb0177408afe333/Sentinel/docs/CAPACITY_TESTING.md) explain reproduction. Independent reproduction remains outstanding.
 
 ## Selected engineering
 
@@ -73,20 +87,29 @@ These documents connect design choices to inspectable contracts and controls. Re
 | **Independent verification** | Specify the audit format and provide verifiers in Python, TypeScript, and Go. See the [portable specification](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/spec/SPEC.md). |
 | **Maintainability and honest limits** | Document contracts, review dependency changes, preserve version history, and distinguish checks from certification. See [Article’s charter and limitations](https://github.com/Shawdaimarie/article-). |
 
-## Language development plan
+## Languages and implementation evidence
 
-This eight-language plan connects technical growth to useful deliverables. Project coverage is not a claim of equal proficiency, and development targets are not offered as established expertise.
+These links show where languages appear in my published projects. They describe concrete implementation areas, not equal proficiency across every language or independently assessed expertise.
 
-| Language | Delivery focus | Evidence status |
+| Language | Published implementation | What a reviewer can inspect |
 |---|---|---|
-| Python | AI evaluation, automation, CLI tools, and backend services | Published project materials: Sentinel, Agent Trace Fixtures, and Article |
-| TypeScript | Typed integrations and verification tools | Published project materials: Sentinel portable verifier |
-| JavaScript | Browser interfaces and interactive dashboards | Published project materials: Nyx Market Dashboard |
-| SQL | Evaluation history, data contracts, and reporting | Published project materials: Sentinel PostgreSQL evaluation history |
-| Go | Authorization services and portable verification | Published project materials: Aegis and Sentinel |
-| C++ | Algorithms and performance-sensitive components | Development target; publish a documented implementation and reproducible checks |
-| Java | Backend services and enterprise integrations | Development target; publish a documented implementation and reproducible checks |
-| Rust | Memory-safe systems tools and reliable infrastructure | Development target; publish a documented implementation and reproducible checks |
+| **Python** | [Trace checker](https://github.com/Shawdaimarie/agent-trace-fixtures/blob/c712de027af0812e927c3b9a5e8b4c669731b80c/tracecheck.py) and [Sentinel importer](https://github.com/Shawdaimarie/sentinel/blob/3b2e7cf0716e3940ef5f8af7beb0177408afe333/Sentinel/src/sentinel/trace_import.py) | Bounded input handling, trace identities, topology checks and evaluation records |
+| **TypeScript** | [Portable audit verifier](https://github.com/Shawdaimarie/sentinel/blob/3b2e7cf0716e3940ef5f8af7beb0177408afe333/Sentinel/verifiers/typescript/src/verifier.ts) | Typed JSON validation, safe integer constraints and audit-chain verification |
+| **JavaScript** | [Nyx dashboard source](https://github.com/Shawdaimarie/nyx-market-dashboard/blob/34c9502146a681d7f34e2ce30ec4f9ad1c88132d/market-dashboard.html) | DOM rendering and event handling in a browser interface; live integrations require separate validation |
+| **SQL** | [PostgreSQL history schema](https://github.com/Shawdaimarie/sentinel/blob/3b2e7cf0716e3940ef5f8af7beb0177408afe333/Sentinel/src/sentinel/migrations/001_history.sql) | Relational keys, constraints, evaluation history and data integrity |
+| **Go** | [Aegis authorizer](https://github.com/Shawdaimarie/sentinel/blob/3b2e7cf0716e3940ef5f8af7beb0177408afe333/Aegis/internal/aegis/authorizer.go) | Policy decisions, scoped authorization, denial paths and audit integration |
+| **Bash** | [Container smoke checks](https://github.com/Shawdaimarie/sentinel/blob/3b2e7cf0716e3940ef5f8af7beb0177408afe333/scripts/smoke-image.sh) | Failure propagation, cleanup and packaged-behavior checks with synthetic inputs |
+
+### Further language development
+
+The broader roadmap contains ten languages: the six above, plus the four targets below. These targets are **not presented as established skills**; add implementation claims only after publishing reviewable work and checks.
+
+| Language | Intended area | Current evidence status |
+|---|---|---|
+| C++ | Performance-sensitive components and inference systems | Development target; no supporting public implementation verified for this profile |
+| Java | Backend services and enterprise integrations | Development target; no supporting public implementation verified for this profile |
+| C# | .NET applications and services | Development target; no supporting public implementation verified for this profile |
+| Rust | Memory-safe systems and developer tools | Development target; no supporting public implementation verified for this profile |
 
 ## Delivery and profile consistency
 
@@ -106,7 +129,7 @@ This eight-language plan connects technical growth to useful deliverables. Proje
 
 ## Scope
 
-These are reference implementations. Their tests and controls show the behavior they cover. They do not establish universal safety, certification, or production readiness for every use case.
+Development is AI-assisted; I remain responsible for reviewing changes, checking results, and explaining my contributions. These are reference implementations. Their tests and controls show the behavior they cover. They do not establish universal safety, certification, or production readiness for every use case.
 
 Useful contributions include a reproducible failure case, an independently checked result, or a tested interoperability fix. Start with the repository's documentation and contribution guide. Please report security findings privately, following each repository's security policy.
 
