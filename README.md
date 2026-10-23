@@ -1,14 +1,6 @@
 # Shawdai Marie
 
-**Software & AI Engineering | Python Tools, Evaluation & Technical Writing**
-
-**U.S.-based · Seeking remote roles · No employment sponsorship required**
-
-I build tools and reference implementations for AI-agent evaluation, trace validation, authorization, and audit verification. My repositories connect readable code to regression tests, reproducible checks, and the documentation another engineer needs to inspect, run, and maintain the work.
-
-My strongest current work samples are **Python validation and evaluation tools**, supported by **Go authorization services, TypeScript verification, SQL data contracts, JavaScript interfaces, and Bash delivery checks**. Each language claim below links to implementation evidence; the learning roadmap distinguishes future targets.
-
-I am interested in **remote software engineering, AI application and evaluation tooling, test automation, and developer documentation**. Contact [shawdaimarie@gmail.com](mailto:shawdaimarie@gmail.com), review the work samples below, or explore [Essential Digital Solution](https://essentialdigitalsolution.com/).
+**Software & AI Engineering | 
 
 ## Review a work sample
 
