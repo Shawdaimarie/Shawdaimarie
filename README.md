@@ -2,6 +2,18 @@
 
 Software & AI Engineering 
 
+## Technical problems I work on
+
+I develop reference implementations and technical documentation for software teams reviewing AI-agent behavior. My public work centers on three concrete problems:
+
+| Engineering problem | Implemented approach | Reviewable output |
+|---|---|---|
+| A candidate AI change may regress required behavior | [Sentinel evaluation gates](https://github.com/Shawdaimarie/sentinel/blob/3b2e7cf0716e3940ef5f8af7beb0177408afe333/Sentinel/src/sentinel/evaluation.py) compare candidate and baseline runs and keep safety failures explicit | Case-level results, regression decisions and reproducible evaluation artifacts |
+| A tool action may exceed its permitted scope | [Aegis authorization](https://github.com/Shawdaimarie/sentinel/blob/3b2e7cf0716e3940ef5f8af7beb0177408afe333/Aegis/internal/aegis/authorizer.go) checks identity, policy and access conditions | Allow/deny decisions with audit evidence and documented trust boundaries |
+| Trace data may be incomplete, ambiguous or malformed | [Python trace checks](https://github.com/Shawdaimarie/agent-trace-fixtures/blob/c712de027af0812e927c3b9a5e8b4c669731b80c/tracecheck.py) use synthetic fixtures, explicit identities and stable diagnostics | Reproducible failure cases with expected results and source fingerprints |
+
+These implementations provide inspectable evidence for review and integration work. Customer savings, revenue and production adoption require separate measurements; no financial value is inferred from synthetic throughput.
+
 ## Review a work sample
 
 | If you are reviewing… | Start here | What you can inspect |
@@ -11,6 +23,12 @@ Software & AI Engineering
 | Deployment and handoff | [Sentinel installation guide](https://github.com/Shawdaimarie/sentinel/blob/main/INSTALLING.md) and [first-run guide](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/FIRST_RUN.md) | Setup instructions and checks for someone approaching the project for the first time |
 
 The trace walkthrough records a local Python 3.12.14 run on October 12, 2026: nine fixture expectations matched and eight unit tests passed. These are synthetic checks, with the source revision and limitations recorded in the guide.
+
+## Delivery context
+
+My resume describes implementation, evaluation and technical handoff within a practice spanning **120+ client mandates across eight sectors**. It also records **ORACLE workflow validation across 14 client environments** and a brief-to-publication pipeline supporting campaigns that generated **more than one million audience engagements**.
+
+These resume-reported figures describe delivery scope and audience engagement. They are distinct from the public engineering measurements below; they do not establish revenue, financial savings, or a valuation of this profile.
 
 ## Measured engineering results
 
@@ -69,16 +87,6 @@ Three starting points for reviewing the engineering decisions behind the code:
 
 These documents connect design choices to inspectable contracts and controls. Read the stated assumptions and limits alongside the implementation.
 
-## Engineering principles
-
-| Principle | How I put it into practice |
-|---|---|
-| **Evidence over assertion** | Define observable outcomes and compare candidate runs against a baseline. See the [evaluation protocol](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/EVALUATION.md). |
-| **Bounded authority** | Check identity, scope, policy, and required approval before dispatch. See the [Aegis threat model](https://github.com/Shawdaimarie/sentinel/blob/main/Aegis/docs/THREAT_MODEL.md). |
-| **Safety as a separate gate** | Keep safety failures visible rather than allowing an aggregate score to hide them. See [Sentinel’s evaluator](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/EVALUATION.md). |
-| **Independent verification** | Specify the audit format and provide verifiers in Python, TypeScript, and Go. See the [portable specification](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/spec/SPEC.md). |
-| **Maintainability and honest limits** | Document contracts, review dependency changes, preserve version history, and distinguish checks from certification. See [Article’s charter and limitations](https://github.com/Shawdaimarie/article-). |
-
 ## Languages and implementation evidence
 
 These links show where languages appear in my published projects. They describe concrete implementation areas, not equal proficiency across every language or independently assessed expertise.
@@ -92,34 +100,11 @@ These links show where languages appear in my published projects. They describe 
 | **Go** | [Aegis authorizer](https://github.com/Shawdaimarie/sentinel/blob/3b2e7cf0716e3940ef5f8af7beb0177408afe333/Aegis/internal/aegis/authorizer.go) | Policy decisions, scoped authorization, denial paths and audit integration |
 | **Bash** | [Container smoke checks](https://github.com/Shawdaimarie/sentinel/blob/3b2e7cf0716e3940ef5f8af7beb0177408afe333/scripts/smoke-image.sh) | Failure propagation, cleanup and packaged-behavior checks with synthetic inputs |
 
-### Further language development
+The [language development plan and engineering standard](docs/engineering-standard.md) distinguish supported implementation areas from future learning targets.
 
-The broader roadmap contains ten languages: the six above, plus the four targets below. These targets are **not presented as established skills**; add implementation claims only after publishing reviewable work and checks.
+## Scope and next evidence
 
-| Language | Intended area | Current evidence status |
-|---|---|---|
-| C++ | Performance-sensitive components and inference systems | Development target; no supporting public implementation verified for this profile |
-| Java | Backend services and enterprise integrations | Development target; no supporting public implementation verified for this profile |
-| C# | .NET applications and services | Development target; no supporting public implementation verified for this profile |
-| Rust | Memory-safe systems and developer tools | Development target; no supporting public implementation verified for this profile |
-
-## Delivery and profile consistency
-
-- Keep role descriptions, project scope, skill evidence, and portfolio links consistent across professional profiles.
-- Define the user problem, deliverables, acceptance criteria, and system boundaries before implementation.
-- Use accessible interfaces, least-privilege access, privacy-conscious data handling, and explicit human oversight where appropriate.
-- Deliver readable code, relevant tests, setup instructions, API examples, and a maintainable handoff.
-- Report measured results with the revision, environment, and limitations; distinguish synthetic checks from production evidence.
-- After each meaningful release, review affected portfolio descriptions and record new evidence before expanding skill claims.
-
-## Current priorities
-
-- Maintain the verified Sentinel container release and its installation evidence. The [release workflow for revision 2cd315d](https://github.com/Shawdaimarie/sentinel/actions/runs/38089132254) completed successfully; review new dependency and security findings as they arise.
-- Develop reproducible evaluation examples with explicit baselines, failure cases, and limits; keep proposed latency and cost studies distinct from completed results.
-- Make every project installable, reproducible, and verifiable by someone who has never spoken to me.
-- Contribute tested fixes to the open-source tools these projects depend on.
-
-## Scope
+The next priority is independent reproduction of the existing work and a permitted real-workflow pilot with a recorded baseline, operating costs and user acceptance. Public benchmark results and client/business results will remain distinct.
 
 Development is AI-assisted; I remain responsible for reviewing changes, checking results, and explaining my contributions. These are reference implementations. Their tests and controls show the behavior they cover. They do not establish universal safety, certification, or production readiness for every use case.
 

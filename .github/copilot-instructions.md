@@ -6,9 +6,12 @@ Portfolio: https://essentialdigitalsolution.com/
 GitHub: https://github.com/Shawdaimarie
 
 Language plan: Python, TypeScript, JavaScript, SQL, Go, Bash, C++, Java, C#, Rust.
-Published implementation evidence is linked for the first six. C++, Java, C#,
-and Rust are development targets until linked implementations and checks support
-stronger claims. Do not present all ten as equally proficient or certified.
+Linked public implementation evidence covers Python, TypeScript, JavaScript,
+SQL, Go and Bash. The supplied resume lists Python and C++ as primary languages
+and additional languages including Java and C#; preserve those resume-reported
+facts without presenting them as independently assessed public implementations.
+Rust remains a development target. Public source coverage is not a complete
+inventory of professional experience or a certification of proficiency.
 
 Role preference: U.S.-based remote software and AI engineering work; no employment
 sponsorship required. Distinguish measured synthetic results from production
