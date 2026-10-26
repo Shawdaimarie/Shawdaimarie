@@ -2,11 +2,11 @@
 
 Software & AI Engineering 
 
-## Technical problems I work on
+## Technical Solutions I work on
 
-I develop reference implementations and technical documentation for software teams reviewing AI-agent behavior. My public work centers on three concrete problems:
+I develop reference implementations and technical documentation for software teams reviewing AI-agent behavior. My public dev opts centers on three concrete problems:
 
-| Engineering problem | Implemented approach | Reviewable output |
+| Engineering Solution | Implemented approach | Reviewable output |
 |---|---|---|
 | A candidate AI change may regress required behavior | [Sentinel evaluation gates](https://github.com/Shawdaimarie/sentinel/blob/3b2e7cf0716e3940ef5f8af7beb0177408afe333/Sentinel/src/sentinel/evaluation.py) compare candidate and baseline runs and keep safety failures explicit | Case-level results, regression decisions and reproducible evaluation artifacts |
 | A tool action may exceed its permitted scope | [Aegis authorization](https://github.com/Shawdaimarie/sentinel/blob/3b2e7cf0716e3940ef5f8af7beb0177408afe333/Aegis/internal/aegis/authorizer.go) checks identity, policy and access conditions | Allow/deny decisions with audit evidence and documented trust boundaries |
