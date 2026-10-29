@@ -2,7 +2,7 @@
 
 **AI Systems Engineer | Agent Evaluation, Runtime Infrastructure & Security**
 
-I design and implement reviewable AI-agent systems across application code, evaluation, infrastructure, and security. My public work focuses on governed tool execution, reproducible behavior checks, trace integrity, and operational controls. The projects below link each claim to code or recorded evidence and distinguish synthetic results from independent or production validation.
+I design and implement reviewable AI-agent systems across application code, evaluation, infrastructure, and security. My public work focuses on tool execution, reproducible behavior checks, trace integrity, and operational controls. The projects below link each claim to code or recorded evidence and distinguish synthetic results from independent or production validation.
 
 ## Technical Solutions I work on
 
