@@ -2,7 +2,7 @@
 
 **AI Systems Engineer | Agent Evaluation, Runtime Infrastructure & Security**
 
-I design and implement reviewable AI-agent systems across application code, evaluation, infrastructure, and security. My public work focuses on tool execution, reproducible behavior checks, trace integrity, and operational controls. The projects below link each claim to code or recorded evidence and distinguish synthetic results from independent or production validation.
+I develop reference implementations for AI-agent execution and evaluation, with work spanning application code, infrastructure, and security. My primary platform, Sentinel, combines policy-gated tool execution, deterministic evaluation gates, OpenTelemetry trace normalization, PostgreSQL evaluation history, and cross-language audit verification. This profile links to source and recorded evidence. Results currently cover synthetic fixtures and offline benchmarks; independent reproduction and production validation remain outstanding.
 
 ## Technical Solutions I work on
 
