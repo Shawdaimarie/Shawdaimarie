@@ -1,8 +1,10 @@
 # Shawdai Marie
 
-**AI Systems Engineer | Agent Evaluation, Runtime Infrastructure & Security**
+**Software & AI Systems Engineer | Agent Evaluation, Runtime Infrastructure & Security**
 
-I develop reference implementations for AI-agent execution and evaluation, with work spanning application code, infrastructure, and security. My primary project, [Sentinel](https://github.com/Shawdaimarie/sentinel), is a reference platform for AI-agent execution and evaluation. It combines policy-gated tool execution, deterministic evaluation gates, OpenTelemetry trace normalization, PostgreSQL evaluation history, and cross-language audit-chain verification. This profile links to source and recorded evidence. Results currently cover synthetic fixtures and offline benchmarks; independent reproduction and production validation remain outstanding.
+I like to code, write, and design creative technology. 
+
+I develop reference implementations for AI-agent execution and evaluation, with work spanning application code, infrastructure, and security. 
 
 ## Technical Solutions I work on
 
