@@ -1,6 +1,6 @@
 # Shawdai Marie
 
-**Software & AI Systems Engineer | Agent Evaluation, Runtime Infrastructure & Security**
+**Software & AI Engineer **
 
 I turn ideas into working systems—writing the code, shaping agent behavior, and making complex technology clear, from deep neural networks and beyond. 
 
