@@ -2,9 +2,9 @@
 
 **Software & AI Systems Engineer | Agent Evaluation, Runtime Infrastructure & Security**
 
-I turn ideas into working systems—writing the code, shaping agent behavior, and making complex technology clear.
+I turn ideas into working systems—writing the code, shaping agent behavior, and making complex technology clear, from deep neural networks and beyond. 
 
-My work connects software engineering and technical writing through AI-agent execution, evaluation, and developer tools. I develop reference implementations with explicit system boundaries, reproducible checks, and documentation that explains how the code works and where its limits lie.
+With principle, intelligence, and value, my work connects software engineering and technical writing through AI-agent execution, evaluation, and developer tools. I develop reference implementations with explicit system boundaries, reproducible checks, and documentation that explains how the code works and where its limits lie.
 
 ## Engineering focus
 
