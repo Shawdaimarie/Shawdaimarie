@@ -2,7 +2,7 @@
 
 **Software & AI Systems Engineer | Agent Evaluation, Runtime Infrastructure & Security**
 
-I like to designing deep neutral networks, AI systems, coding, and creative technology. 
+I like to designing deep neutral networks, AI systems, coding, writing, and creative technology. 
 
 I develop reference implementations for AI-agent execution and evaluation, with work spanning application code, infrastructure, and security. 
 
