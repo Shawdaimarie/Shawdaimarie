@@ -1,6 +1,6 @@
 # Shawdai Marie
 
-**Software & AI/ML Engineer **
+Software & AI/ML Engineer 
 
 I turn ideas into working systems—writing the code, shaping agent behavior, and making complex technology clear, from deep neural networks to deep learning
 
