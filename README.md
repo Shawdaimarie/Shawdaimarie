@@ -1,5 +1,16 @@
 # Shawdai Marie
 
+## Coding and technical writing: reviewer entry points
+
+**Focus: AI engineering, software implementation, evaluation, and technical writing.** For a quick code review, start with:
+
+- **[Sentinel](https://github.com/Shawdaimarie/sentinel#reviewer-path):** Python evaluation and trace ingestion, Go authorization, TypeScript audit verification, and SQL history. Follow the reviewer path from architecture to code, tests, and evidence.
+- **[EDS Assurance](https://github.com/Shawdaimarie/eds-assurance):** Python evidence contracts, scoped REST APIs, SQLite audit records, and mock-tested provider adapters. Its demonstration is synthetic; live provider inference remains unverified in its documentation. [Verification record](https://github.com/Shawdaimarie/eds-assurance/blob/main/docs/VERIFICATION.md).
+- **[Agent Trace Fixtures](https://github.com/Shawdaimarie/agent-trace-fixtures):** offline Python validation and regression tests. The 12/20 → 20/20 result below belongs to [open, unmerged candidate PR #2](https://github.com/Shawdaimarie/agent-trace-fixtures/pull/2), not the default branch. [Draft PR #3](https://github.com/Shawdaimarie/agent-trace-fixtures/pull/3) separately strengthens evidence checks under optimized Python and is also unmerged. These are purpose-selected synthetic cases, not production accuracy.
+- **Technical writing:** [trace-importer review](docs/trace-importer-review.md), [evaluation protocol](https://github.com/Shawdaimarie/sentinel/blob/main/Sentinel/docs/EVALUATION.md), and [authorization threat model](https://github.com/Shawdaimarie/sentinel/blob/main/Aegis/docs/THREAT_MODEL.md).
+
+[Selected research and engineering connections](docs/research-foundations.md) covers MIT ABxLab, Caltech-led LeanDojo, Stanford HELM, CMU WebArena, MIT neural-dynamics models, and Caltech physics-informed neural operators. These sources provide research context, not claims of my degree, postdoctoral training, institutional affiliation, or implementation of neuroscience/physics models. Development and documentation are AI-assisted; project evidence and its limits remain the basis for review.
+
 Software & AI/ML Engineer 
 
 I turn ideas into working systems—writing the code, shaping agent behavior, and making complex technology clear, from deep neural networks to deep learning
