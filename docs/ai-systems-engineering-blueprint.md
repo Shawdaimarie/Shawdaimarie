@@ -4,6 +4,19 @@
 **Scope:** engineering strategy, not a claim of university affiliation, endorsement, clinical guidance, or a guarantee that one model fits every business.  
 **Evidence checked:** 8 November 2026. Research is fast-moving; re-check primary sources and benchmark versions before making design or purchasing decisions.
 
+## Quality criteria and verification standard
+
+There is no single software, AI, or release standard jointly established by the 20 highest-ranked technology universities. Rankings measure universities using ranking-specific indicators; they do not define an engineering acceptance rubric. The 2026 QS Engineering & Technology ranking is one possible way to identify a research context, not a technical standard or an endorsement of this blueprint.
+
+For an auditable quality bar, use published external frameworks where they fit and project-specific, preregistered acceptance criteria:
+
+- **NIST AI RMF TEVV:** document risks and trustworthiness measures; use repeatable testing, evaluation, verification, and validation; revisit them as the system and evidence change. [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) · [AI RMF Measure function](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/)
+- **AI testing methods:** [ISO/IEC TS 42119-2:2025](https://www.iso.org/obp/ui/en/#iso:std:iso-iec:ts:42119:-2:ed-1:v1:en) provides an overview of AI-system testing. VECTOR's current replay scheduler is deterministic software rather than an AI model; apply AI-specific evaluation when a learned component is actually introduced.
+- **Management systems:** [ISO/IEC 42001](https://www.iso.org/standard/42001) concerns an organizational AI management system. Referencing it does not mean VECTOR is certified or conforms.
+- **Benchmark validity:** Stanford HAI's [2026 technical-performance report](https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance) records fast capability progress alongside evaluation and reliability limitations. Test complete workflows and operational constraints instead of using one leaderboard result as a release proof.
+
+For VECTOR's published scorecard, report the **earned score**, rubric version, test commands and environment, raw artifacts, code commit, reviewer, and independent-reproduction state. Do not convert an unexecuted check, a blocked check, a university ranking, or a model leaderboard score into a pass. The current repository scorecard remains 0/100 independently verified; the local quality review records a fresh test attempt that was blocked by unavailable Docker/Node tooling, not a new pass.
+
 ## 1. Strategic category and next step
 
 Place this work under **trustworthy AI systems engineering**, with **reliable, benchmark-driven scheduling** as VECTOR's first applied use case. Neuroscience-inspired AI belongs in the research input layer; it is not the product category. This keeps the product goal, evaluation method, and operating responsibilities clear.
