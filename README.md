@@ -124,7 +124,7 @@ These résumé-reported figures describe client delivery and audience engagement
 
 ## Research-led AI systems engineering
 
-I am developing a durable, evidence-led approach to trustworthy AI systems, starting with benchmark-driven scheduling for VECTOR. The [AI systems engineering blueprint](docs/ai-systems-engineering-blueprint.md) maps recent research to model selection, data and infrastructure, automation controls, language choices, business adoption, and reproducible release gates. It distinguishes research prototypes and synthetic evidence from independently reproduced or production results.
+I am developing a durable, evidence-led approach to trustworthy AI systems, starting with benchmark-driven scheduling for VECTOR. The [AI systems engineering blueprint](docs/ai-systems-engineering-blueprint.md) maps recent research to model selection, data and infrastructure, automation controls, language choices, business adoption, and reproducible release gates. It distinguishes research prototypes and synthetic evidence from independently reproduced or production results. The [ATLAS water-exposure screening blueprint](docs/ATLAS_AI_SYSTEMS_LONGEVITY_BLUEPRINT.md) applies this approach to geospatial decision support, human-AI reliance, model selection, and cloud operations. It explicitly records that the current demo uses synthetic fixtures and that confirmatory validation and provider deployments remain pending.
 
 ## Validation and next steps
 
