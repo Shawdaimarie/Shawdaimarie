@@ -122,6 +122,10 @@ My résumé describes implementation, evaluation, and technical handoff within a
 
 These résumé-reported figures describe client delivery and audience engagement. They are separate from the repository benchmarks and do not measure software performance or financial impact.
 
+## Research-led AI systems engineering
+
+I am developing a durable, evidence-led approach to trustworthy AI systems, starting with benchmark-driven scheduling for VECTOR. The [AI systems engineering blueprint](docs/ai-systems-engineering-blueprint.md) maps recent research to model selection, data and infrastructure, automation controls, language choices, business adoption, and reproducible release gates. It distinguishes research prototypes and synthetic evidence from independently reproduced or production results.
+
 ## Validation and next steps
 
 The published work consists of reference implementations supported by synthetic fixtures and offline measurements. Independent reproduction and production validation remain outstanding. The next step is an authorized workflow pilot with a recorded baseline, operating costs, and user acceptance criteria. Claims about customer savings, revenue, or adoption will require separate evidence.
