@@ -1,10 +1,35 @@
 # Shawdai Marie
 
-Software & AI/ML Engineer 
+**Software & AI Systems Engineer**
 
-I turn ideas into working systems—writing the code, shaping agent behavior, and making complex technology clear, from deep neural networks to deep learning
+I'm Shawdai Marie, a software and AI systems engineer focused on reliable behavior, clear interfaces, and reproducible evidence. I build reference systems for agent evaluation, authorization, trace validation, and data-driven workflows, and document both their capabilities and their limits.
 
-With principle, intelligence, and value, my work connects software engineering and technical writing through AI-agent execution, evaluation, and developer tools. I develop reference implementations with explicit system boundaries, reproducible checks, and documentation that explains how the code works and where its limits lie.
+My work combines implementation, testing, and technical writing. Start with **Sentinel** for governed agent execution and evaluation, **Agent Trace Fixtures** for focused validation cases, or **ATLAS** for geospatial screening with explicit research boundaries. Supporting projects explore assurance services, local model-serving workflows, and interface prototypes.
+
+## Portfolio overview
+
+| Project | Purpose and scope | Access |
+|---|---|---|
+| [Sentinel](https://github.com/Shawdaimarie/sentinel) | Agent evaluation, authorization, audit verification; reference implementation | Public |
+| [Agent Trace Fixtures](https://github.com/Shawdaimarie/agent-trace-fixtures) | Synthetic malformed-trace cases and deterministic validation | Public |
+| [ATLAS](https://github.com/Shawdaimarie/atlas-water-screening) | Surface-water screening; independent scientific validation remains pending | Public |
+| [Aegis](https://github.com/Shawdaimarie/Aegis) | Python policy service; separate from Sentinel's Go gateway | Public |
+| [Article](https://github.com/Shawdaimarie/article-) | Charter checks and authenticated run history; supports human review | Public |
+| [EDS Assurance](https://github.com/Shawdaimarie/eds-assurance) | Evidence contracts and tenant-scoped assurance services | Public |
+| [Northstar](https://github.com/Shawdaimarie/ai-model-serving-and-workflow-platform) | Local serving and approval-workflow reference; demo backend by default | Public |
+| [Rill](https://github.com/Shawdaimarie/project-2-full-stack-application-development) | Interactive interface prototype with labeled sample diagnostics | Public |
+| [Nyx](https://github.com/Shawdaimarie/nyx-market-dashboard) | Market interface prototype; live provider integration remains a separate milestone | Public |
+| [CS–AI Path](https://github.com/Shawdaimarie/cs-ai-path) | Learning roadmap and resources; not a claim of course completion | Public |
+| [ServeScope](https://github.com/Shawdaimarie/servescope) | Local provider workspace and governance controls | Private; access required |
+| [Portfolio source](https://github.com/Shawdaimarie/essentialdigitalsolution) | Professional introduction, résumé, and case studies | Private; public portfolio linked below |
+| [This profile](https://github.com/Shawdaimarie/Shawdaimarie) | Project directory, technical writing, and evidence policy | Public |
+
+## Evidence policy
+
+Tests and measurements describe the specified revision and environment. Synthetic fixtures and local benchmarks do not establish production performance, independent review, or client outcomes. Historical evidence below retains its original dates and pinned links. AI assistance and résumé-reported professional context remain disclosed in the detailed notes. No university endorsement or shared university certification is claimed.
+
+<details>
+<summary>Technical evidence, professional context, and complete original link directory</summary>
 
 ## Engineering focus
 
@@ -135,3 +160,5 @@ Development and documentation are AI-assisted. I remain responsible for reviewin
 I welcome reproducible failure reports, independently checked results, and tested interoperability improvements. Follow each repository’s documentation and contribution guide, and report security findings privately through its security policy.
 
 [Portfolio](https://essentialdigitalsolution.com/) · [All repositories](https://github.com/Shawdaimarie?tab=repositories) · [Codeforces](https://codeforces.com/profile/Shawdaimarie) · [LeetCode](https://leetcode.com/u/Shawdaimarie/) · [CodeChef](https://www.codechef.com/users/plush_rain_95)
+
+</details>
