@@ -2,11 +2,9 @@
 
 **Software & AI/ML Engineer**
 
-I turn ideas into working systems—writing the code, shaping agent behavior, and making complex technology clear. My work connects machine learning with the software systems needed to execute, evaluate, and govern AI-enabled workflows.
+I build deep neural networks. 
 
-Guided by principle, technical rigor, and practical value, I bring software engineering and technical writing together through AI-agent execution, evaluation, and developer tools. I develop reference implementations with explicit system boundaries, defined trust assumptions, and reproducible checks that connect design decisions to observable behavior.
-
-I treat evaluation as an engineering discipline: specify the intended behavior, establish a baseline, test failure conditions, and distinguish what the evidence demonstrates from what remains uncertain. My documentation makes the architecture, implementation choices, and limitations inspectable, giving others a foundation for reproduction, critical review, and informed extension.
+Guided by  principle evaluation as an engineering discipline: specify the intended behavior, establish a baseline, test failure conditions, and distinguish what the evidence demonstrates from what remains uncertain. My documentation makes the architecture, implementation choices, and limitations inspectable, giving others a foundation for reproduction, critical review, and informed extension.
 
 ## Portfolio overview
 
